@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Torso Table (1–100)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .table-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161616;
+            color: #d6d6d6;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background-color: #1f1f1f;
+            color: #ff6666;
+            padding: 12px;
+            border-bottom: 2px solid #550000;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Alternating row color */
+        tbody tr:nth-child(even):not(.category) {
+            background-color: #1a1a1a;
+        }
+
+        tbody tr:nth-child(odd):not(.category) {
+            background-color: #141414;
+        }
+
+        /* Category header rows */
+        .category td {
+            background-color: #220000;
+            color: #ff6666;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        /* Emphasize roll column */
+        td:first-child {
+            font-weight: bold;
+            color: #ff4c4c;
+            width: 6%;
+        }
+
+        /* Slight hover highlight */
+        tbody tr:hover:not(.category) {
+            background-color: #252525;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background-color: #0f0f0f;
+            color: #cfcfcf;
+        }
+
+        a {
+            color: #b33939;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #8c2f2f;
+        }
+
+        a:hover {
+            color: #ff4c4c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+
+    <h1>Torso Table (1–100)</h1>
+
+     <p><a href="Hatred's_Persistence_Index#rule2" class="return-link">← Return to Rule Index</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Torso Type</th>
+                <th>STR</th>
+                <th>CON</th>
+                <th>Trait</th>
+                <th>Drawback</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="category"><td colspan="6">1–10 PHB Race Torsos</td></tr>
+
+            <tr><td>1</td><td>Human</td><td>+0</td><td>+0</td><td>Adaptable physique (gain one skill)</td><td>None</td></tr>
+            <tr><td>2</td><td>Dwarf</td><td>+2</td><td>+0</td><td>Poison resistance</td><td>Heavy frame (-5 ft speed)</td></tr>
+            <tr><td>3</td><td>Elf</td><td>+0</td><td>+0</td><td>Graceful metabolism (adv vs charm saves)</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>4</td><td>Halfling</td><td>-1</td><td>-1</td><td>Evasion vs fear</td><td>Small frame (reduced shove resistance)</td></tr>
+            <tr><td>5</td><td>Gnome</td><td>-1</td><td>-1</td><td>Magic resistance (mental only)</td><td>Frail ribs</td></tr>
+            <tr><td>6</td><td>Half-Elf</td><td>+1</td><td>+0</td><td>Fey resilience</td><td>Socially uncanny</td></tr>
+            <tr><td>7</td><td>Half-Orc</td><td>+1</td><td>+1</td><td>Relentless endurance (1/day)</td><td>Intimidating presence</td></tr>
+            <tr><td>8</td><td>Dragonborn</td><td>+1</td><td>+1</td><td>Breath organ (minor)</td><td>Elemental vulnerability (opposed)</td></tr>
+            <tr><td>9</td><td>Tiefling</td><td>+0</td><td>+0</td><td>Fire resistance</td><td>Radiant sensitivity</td></tr>
+            <tr><td>10</td><td>Variant Human</td><td>+0</td><td>+0</td><td>Bonus feat trait</td><td>None</td></tr>
+
+
+            <tr class="category"><td colspan="6">11–30 Monster Torsos</td></tr>
+
+            <tr><td>11</td><td>Minotaur</td><td>+2</td><td>+1</td><td>Thick hide</td><td>Rage trigger on crit</td></tr>
+            <tr><td>12</td><td>Gnoll</td><td>+1</td><td>+1</td><td>Blood frenzy (bonus damage if target wounded)</td><td>Bloodlust impulse</td></tr>
+            <tr><td>13</td><td>Lizardfolk</td><td>+2</td><td>+0</td><td>Natural armor</td><td>Cold sensitivity</td></tr>
+            <tr><td>14</td><td>Yuan-ti</td><td>+1</td><td>+0</td><td>Magic resistance</td><td>Radiant vulnerability</td></tr>
+            <tr><td>15</td><td>Hobgoblin</td><td>+1</td><td>+0</td><td>Martial discipline</td><td>Prideful rigidity</td></tr>
+            <tr><td>16</td><td>Bugbear</td><td>+1</td><td>+1</td><td>Dense musculature</td><td>Poor stealth bulk</td></tr>
+            <tr><td>17</td><td>Kobold</td><td>-1</td><td>-1</td><td>Pack synergy bonus</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>18</td><td>Orc</td><td>+1</td><td>+1</td><td>Aggressive surge (1/short rest)</td><td>Impulsive</td></tr>
+            <tr><td>19</td><td>Troglodyte</td><td>+2</td><td>+0</td><td>Stench aura</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>20</td><td>Merrow</td><td>+2</td><td>+1</td><td>Amphibious lungs</td><td>Dehydrates on land</td></tr>
+            <tr><td>21</td><td>Harpy</td><td>+0</td><td>+0</td><td>Hypnotic resonance</td><td>Compulsive singing</td></tr>
+            <tr><td>22</td><td>Ettin</td><td>+3</td><td>+1</td><td>Dual organ redundancy</td><td>Mental instability</td></tr>
+            <tr><td>23</td><td>Lamia</td><td>+1</td><td>+0</td><td>Magical vitality</td><td>Arrogant disposition</td></tr>
+            <tr><td>24</td><td>Medusa</td><td>+1</td><td>+0</td><td>Petrifying aura (slow build)</td><td>Cannot view reflection</td></tr>
+            <tr><td>25</td><td>Sahuagin</td><td>+1</td><td>+1</td><td>Blood frenzy</td><td>Needs saltwater rest</td></tr>
+            <tr><td>26</td><td>Kenku</td><td>+0</td><td>+0</td><td>Perfect vocal mimicry</td><td>Cannot create new speech</td></tr>
+            <tr><td>27</td><td>Tabaxi</td><td>+0</td><td>+0</td><td>Feline flexibility</td><td>Curiosity compulsion</td></tr>
+            <tr><td>28</td><td>Tortle</td><td>+3</td><td>+0</td><td>Shell plating (AC bonus)</td><td>Reduced speed</td></tr>
+            <tr><td>29</td><td>Aarakocra</td><td>-1</td><td>+0</td><td>Hollow frame (lightweight)</td><td>Fragile ribs</td></tr>
+            <tr><td>30</td><td>Triton</td><td>+1</td><td>+0</td><td>Aquatic adaptation</td><td>Land fatigue</td></tr>
+
+            <tr class="category"><td colspan="6">31–50 Creature Torsos</td></tr>
+
+            <tr><td>31</td><td>Centaur</td><td>+2</td><td>+1</td><td>Powerful charge</td><td>Cannot climb normally</td></tr>
+            <tr><td>32</td><td>Satyr</td><td>+1</td><td>+0</td><td>Magic resistance (spells only)</td><td>Revelry distraction</td></tr>
+            <tr><td>33</td><td>Firbolg</td><td>+2</td><td>+0</td><td>Hidden step (1/short rest)</td><td>Gentle disposition</td></tr>
+            <tr><td>34</td><td>Goliath</td><td>+2</td><td>+1</td><td>Stone’s endurance (1/rest)</td><td>Heavy build</td></tr>
+            <tr><td>35</td><td>Genasi (Fire)</td><td>+1</td><td>+0</td><td>Fire resistance</td><td>Cold vulnerability</td></tr>
+            <tr><td>36</td><td>Genasi (Water)</td><td>+1</td><td>+0</td><td>Amphibious</td><td>Dehydrates inland</td></tr>
+            <tr><td>37</td><td>Genasi (Air)</td><td>+0</td><td>+0</td><td>Light body (reduced fall dmg)</td><td>Wind-tossed balance</td></tr>
+            <tr><td>38</td><td>Genasi (Earth)</td><td>+2</td><td>+0</td><td>Natural armor</td><td>Reduced swim speed</td></tr>
+            <tr><td>39</td><td>Leonin</td><td>+1</td><td>+1</td><td>Daunting roar</td><td>Territorial instinct</td></tr>
+            <tr><td>40</td><td>Owlin</td><td>+0</td><td>+0</td><td>Silent glide</td><td>Hollow bones</td></tr>
+            <tr><td>41</td><td>Fairy</td><td>-2</td><td>-2</td><td>Innate flight</td><td>Tiny frame</td></tr>
+            <tr><td>42</td><td>Changeling</td><td>+0</td><td>+0</td><td>Shape torso at will</td><td>Identity instability</td></tr>
+            <tr><td>43</td><td>Shifter</td><td>+1</td><td>+0</td><td>Bestial surge (temp HP)</td><td>Moon agitation</td></tr>
+            <tr><td>44</td><td>Warforged</td><td>+2</td><td>+0</td><td>Integrated plating</td><td>Healing reduced</td></tr>
+            <tr><td>45</td><td>Kalashtar</td><td>+0</td><td>+0</td><td>Mental shield</td><td>Psychic resonance</td></tr>
+            <tr><td>46</td><td>Plasmoid</td><td>+0</td><td>-1</td><td>Amorphous torso</td><td>Vulnerable to cold</td></tr>
+            <tr><td>47</td><td>Thri-Kreen</td><td>+1</td><td>+0</td><td>Chitin armor</td><td>Alien metabolism</td></tr>
+            <tr><td>48</td><td>Autognome</td><td>+1</td><td>+0</td><td>Clockwork resilience</td><td>Lightning sensitivity</td></tr>
+            <tr><td>49</td><td>Reborn</td><td>+1</td><td>+0</td><td>Undead fortitude lite</td><td>Memory gaps</td></tr>
+            <tr><td>50</td><td>Hexblood</td><td>+0</td><td>+0</td><td>Magical tether</td><td>Hag mark stigma</td></tr>
+
+
+            <tr class="category"><td colspan="6">51–60 Undead Torsos</td></tr>
+
+            <tr><td>51</td><td>Zombie</td><td>+2</td><td>+1</td><td>Undead fortitude</td><td>Radiant vulnerability</td></tr>
+            <tr><td>52</td><td>Skeleton</td><td>-1</td><td>+0</td><td>Piercing resistance</td><td>Bludgeoning vulnerability</td></tr>
+            <tr><td>53</td><td>Ghoul</td><td>+1</td><td>+0</td><td>Paralytic touch (weak)</td><td>Sunlight aversion</td></tr>
+            <tr><td>54</td><td>Wight</td><td>+1</td><td>+0</td><td>Life drain minor</td><td>Radiant sensitivity</td></tr>
+            <tr><td>55</td><td>Mummy</td><td>+2</td><td>+0</td><td>Disease aura</td><td>Fire vulnerability</td></tr>
+            <tr><td>56</td><td>Vampire Spawn</td><td>+1</td><td>+1</td><td>Regeneration (slow)</td><td>Sunlight hypersensitivity</td></tr>
+            <tr><td>57</td><td>Ghost</td><td>+0</td><td>-2</td><td>Incorporeal phase (brief)</td><td>Force vulnerability</td></tr>
+            <tr><td>58</td><td>Revenant</td><td>+2</td><td>+0</td><td>Relentless pursuit</td><td>Single-target obsession</td></tr>
+            <tr><td>59</td><td>Lich</td><td>+0</td><td>-1</td><td>Arcane reservoir</td><td>Phylactery bound</td></tr>
+            <tr><td>60</td><td>Banshee</td><td>+0</td><td>-1</td><td>Wail (1/day minor)</td><td>Emotionally unstable</td></tr>
+
+
+            <tr class="category"><td colspan="6">61–70 Construct Torsos</td></tr>
+
+            <tr><td>61</td><td>Iron Golem</td><td>+4</td><td>+2</td><td>Magic resistance</td><td>Fire heals instead</td></tr>
+            <tr><td>62</td><td>Stone Golem</td><td>+4</td><td>+1</td><td>Immutable form</td><td>Slow reactions</td></tr>
+            <tr><td>63</td><td>Clay Golem</td><td>+3</td><td>+1</td><td>Acid absorption</td><td>Berserk flaw</td></tr>
+            <tr><td>64</td><td>Flesh Golem</td><td>+3</td><td>+1</td><td>Lightning surge</td><td>Fire vulnerability</td></tr>
+            <tr><td>65</td><td>Shield Guardian</td><td>+3</td><td>+0</td><td>Spell storing core</td><td>Amulet dependent</td></tr>
+            <tr><td>66</td><td>Helmed Horror</td><td>+2</td><td>+1</td><td>Spell immunity (1 school)</td><td>Rigid structure</td></tr>
+            <tr><td>67</td><td>Modron</td><td>+1</td><td>+0</td><td>Lawful precision</td><td>Order compulsion</td></tr>
+            <tr><td>68</td><td>Animated Armor</td><td>+2</td><td>+1</td><td>Non-organic frame</td><td>No healing magic</td></tr>
+            <tr><td>69</td><td>Clockwork Horror</td><td>+1</td><td>+0</td><td>Self-repair (slow)</td><td>EMP vulnerability</td></tr>
+            <tr><td>70</td><td>War Machine Core</td><td>+3</td><td>+2</td><td>Overdrive mode</td><td>Overheat risk</td></tr>
+
+
+            <tr class="category"><td colspan="6">71–80 Aberration Torsos</td></tr>
+
+            <tr><td>71</td><td>Mind Flayer</td><td>+1</td><td>-1</td><td>Psychic pulse</td><td>Low physical durability</td></tr>
+            <tr><td>72</td><td>Beholder</td><td>+2</td><td>-2</td><td>Anti-magic cone (short burst)</td><td>Paranoia</td></tr>
+            <tr><td>73</td><td>Aboleth</td><td>+2</td><td>+0</td><td>Mucus adaptation</td><td>Freshwater dependency</td></tr>
+            <tr><td>74</td><td>Gibbering Mouther</td><td>+1</td><td>-1</td><td>Confusion aura</td><td>Unstable body</td></tr>
+            <tr><td>75</td><td>Chuul</td><td>+2</td><td>+1</td><td>Paralytic toxin</td><td>Moisture dependency</td></tr>
+            <tr><td>76</td><td>Intellect Devourer</td><td>+0</td><td>-2</td><td>Brain surge</td><td>Fragile shell</td></tr>
+            <tr><td>77</td><td>Star Spawn</td><td>+2</td><td>+0</td><td>Void resilience</td><td>Radiant weakness</td></tr>
+            <tr><td>78</td><td>Flumph</td><td>-2</td><td>-2</td><td>Telepathic pulse</td><td>Extremely fragile</td></tr>
+            <tr><td>79</td><td>Slaad</td><td>+2</td><td>+1</td><td>Chaotic regeneration</td><td>Wild magic surges</td></tr>
+            <tr><td>80</td><td>Neothelid</td><td>+3</td><td>+1</td><td>Acidic body</td><td>Psychic instability</td></tr>
+
+
+            <tr class="category"><td colspan="6">81–90 Fiend Torsos</td></tr>
+
+            <tr><td>81</td><td>Imp</td><td>+0</td><td>-1</td><td>Invisibility (1/rest)</td><td>Holy vulnerability</td></tr>
+            <tr><td>82</td><td>Quasit</td><td>+0</td><td>-1</td><td>Scare (1/rest)</td><td>Radiant sensitivity</td></tr>
+            <tr><td>83</td><td>Barbed Devil</td><td>+2</td><td>+1</td><td>Retributive spikes</td><td>Cold iron weakness</td></tr>
+            <tr><td>84</td><td>Horned Devil</td><td>+3</td><td>+2</td><td>Infernal vitality</td><td>Radiant vulnerability</td></tr>
+            <tr><td>85</td><td>Pit Fiend</td><td>+4</td><td>+2</td><td>Fire immunity</td><td>Holy damage amplified</td></tr>
+            <tr><td>86</td><td>Succubus</td><td>+0</td><td>-1</td><td>Charm aura</td><td>True name binding</td></tr>
+            <tr><td>87</td><td>Balor</td><td>+4</td><td>+2</td><td>Death burst</td><td>Holy banishment risk</td></tr>
+            <tr><td>88</td><td>Yugoloth</td><td>+2</td><td>+0</td><td>Teleport (short)</td><td>Contract bound</td></tr>
+            <tr><td>89</td><td>Rakshasa</td><td>+1</td><td>+0</td><td>Spell immunity (low lvl)</td><td>Good-aligned weapons harm</td></tr>
+            <tr><td>90</td><td>Cambion</td><td>+1</td><td>+1</td><td>Fiendish resilience</td><td>Radiant sensitivity</td></tr>
+
+
+            <tr class="category"><td colspan="6">91–100 Legendary / Mythic Torsos</td></tr>
+
+            <tr><td>91</td><td>Ancient Dragon</td><td>+5</td><td>+3</td><td>Legendary resistance (1/day)</td><td>Massive presence</td></tr>
+            <tr><td>92</td><td>Kraken</td><td>+4</td><td>+2</td><td>Storm affinity</td><td>Ocean bound</td></tr>
+            <tr><td>93</td><td>Tarrasque</td><td>+6</td><td>+4</td><td>Reflective carapace</td><td>Cataclysmic hunger</td></tr>
+            <tr><td>94</td><td>Phoenix</td><td>+3</td><td>+1</td><td>Rebirth (1 lifetime)</td><td>Water vulnerability</td></tr>
+            <tr><td>95</td><td>Empyrean</td><td>+4</td><td>+2</td><td>Divine resilience</td><td>Alignment bound</td></tr>
+            <tr><td>96</td><td>Archfey</td><td>+2</td><td>+0</td><td>Fey glamour</td><td>Cold iron weakness</td></tr>
+            <tr><td>97</td><td>Demon Lord</td><td>+5</td><td>+3</td><td>Mythic surge</td><td>Holy vulnerability</td></tr>
+            <tr><td>98</td><td>Celestial Paragon</td><td>+4</td><td>+2</td><td>Radiant aura</td><td>Necrotic sensitivity</td></tr>
+            <tr><td>99</td><td>Primordial</td><td>+5</td><td>+3</td><td>Elemental mastery</td><td>Opposed element weakness</td></tr>
+            <tr><td>100</td><td>Overgod Fragment</td><td>+6</td><td>+4</td><td>Reality warp (minor)</td><td>Existence strain</td></tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

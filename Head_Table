@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Head Reconstruction Table</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .table-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161616;
+            color: #d6d6d6;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background-color: #1f1f1f;
+            color: #ff6666;
+            padding: 12px;
+            border-bottom: 2px solid #550000;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Alternating row color */
+        tbody tr:nth-child(even):not(.category) {
+            background-color: #1a1a1a;
+        }
+
+        tbody tr:nth-child(odd):not(.category) {
+            background-color: #141414;
+        }
+
+        /* Category header rows */
+        .category td {
+            background-color: #220000;
+            color: #ff6666;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        /* Emphasize roll column */
+        td:first-child {
+            font-weight: bold;
+            color: #ff4c4c;
+            width: 6%;
+        }
+
+        /* Slight hover highlight */
+        tbody tr:hover:not(.category) {
+            background-color: #252525;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background-color: #0f0f0f;
+            color: #cfcfcf;
+        }
+
+        a {
+            color: #b33939;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #8c2f2f;
+        }
+
+        a:hover {
+            color: #ff4c4c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+
+    <h1>HEAD RECONSTRUCTION TABLE (D100)</h1>
+
+    <p><a href="Hatred's_Persistence_Index#rule2" class="return-link">← Return to Rule Index</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Head Type</th>
+                <th>CON</th>
+                <th>Traits</th>
+                <th>Drawback</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <!-- PHB RACES -->
+            <tr class="category"><td colspan="5">1–10 PHB Race Heads</td></tr>
+
+            <tr><td>1</td><td>Human</td><td>+0</td><td>Extra skill proficiency</td><td>None</td></tr>
+            <tr><td>2</td><td>Dwarf</td><td>+2</td><td>Darkvision, poison resistance</td><td>Reduced speed</td></tr>
+            <tr><td>3</td><td>Elf</td><td>+0</td><td>Darkvision, advantage vs charm</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>4</td><td>Halfling</td><td>-1</td><td>Lucky reroll 1s</td><td>Small bite reach</td></tr>
+            <tr><td>5</td><td>Gnome</td><td>-1</td><td>Advantage vs magic saves</td><td>Physically fragile skull</td></tr>
+            <tr><td>6</td><td>Half-Elf</td><td>+1</td><td>Darkvision, charm resistance</td><td>Socially uncanny</td></tr>
+            <tr><td>7</td><td>Half-Orc</td><td>+2</td><td>Relentless endurance (1/day)</td><td>Intimidating presence</td></tr>
+            <tr><td>8</td><td>Dragonborn</td><td>+1</td><td>Breath weapon (minor)</td><td>Elemental vulnerability (opposed)</td></tr>
+            <tr><td>9</td><td>Tiefling</td><td>+0</td><td>Darkvision, fire resistance</td><td>Radiant sensitivity</td></tr>
+            <tr><td>10</td><td>Variant Human</td><td>+0</td><td>Bonus feat trait</td><td>None</td></tr>
+
+            <!-- MONSTERS -->
+            <tr class="category"><td colspan="5">11–30 Monster Heads</td></tr>
+
+            <tr><td>11</td><td>Minotaur</td><td>+3</td><td>Gore attack</td><td>Tunnel vision</td></tr>
+            <tr><td>12</td><td>Gnoll</td><td>+1</td><td>Rampage</td><td>Bloodlust impulse</td></tr>
+            <tr><td>13</td><td>Lizardfolk</td><td>+2</td><td>Bite attack, hold breath</td><td>Cold sensitivity</td></tr>
+            <tr><td>14</td><td>Yuan-ti</td><td>+1</td><td>Magic resistance</td><td>Radiant vulnerability</td></tr>
+            <tr><td>15</td><td>Hobgoblin</td><td>+1</td><td>Tactical focus</td><td>Prideful rigidity</td></tr>
+            <tr><td>16</td><td>Bugbear</td><td>+2</td><td>Powerful bite</td><td>Lurking paranoia</td></tr>
+            <tr><td>17</td><td>Kobold</td><td>-1</td><td>Pack tactics</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>18</td><td>Orc</td><td>+2</td><td>Aggressive charge</td><td>Impulsive</td></tr>
+            <tr><td>19</td><td>Troglodyte</td><td>+2</td><td>Stench aura</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>20</td><td>Merrow</td><td>+2</td><td>Aquatic breathing</td><td>Drying weakness</td></tr>
+
+            <tr class="category"><td colspan="5">31–50 Creature Heads</td></tr>
+
+
+            <tr><td>31</td><td>Wolf</td><td>+1</td><td>Keen hearing/smell</td><td>Pack instinct reliance</td></tr>
+            <tr><td>32</td><td>Bear</td><td>+3</td><td>Powerful bite</td><td>Heavy skull weight</td></tr>
+            <tr><td>33</td><td>Lion</td><td>+2</td><td>Roar frighten</td><td>Territorial pride</td></tr>
+            <tr><td>34</td><td>Tiger</td><td>+2</td><td>Powerful bite &amp; roar</td><td>Impatient aggression</td></tr>
+            <tr><td>35</td><td>Boar</td><td>+3</td><td>Gore tusk attack</td><td>Poor depth perception</td></tr>
+            <tr><td>36</td><td>Ram</td><td>+2</td><td>Devastating headbutt</td><td>Must move at least 10 ft before headbutt</td></tr>
+            <tr><td>37</td><td>Bull</td><td>+3</td><td>Gore attack</td><td>Easily provoked</td></tr>
+            <tr><td>38</td><td>Crocodile</td><td>+2</td><td>Crushing jaws</td><td>Slow blink reflex</td></tr>
+            <tr><td>39</td><td>Giant Toad</td><td>+1</td><td>Sticky tongue pull</td><td>Dry skin weakness</td></tr>
+            <tr><td>40</td><td>Giant Lizard</td><td>+1</td><td>Powerful bite &amp; scent tracking</td><td>Cold slowed</td></tr>
+            <tr><td>41</td><td>Giant Snake</td><td>+0</td><td>Constrict bonus</td><td>Limited expression</td></tr>
+            <tr><td>42</td><td>Eagle</td><td>+0</td><td>Keen sight</td><td>Hollow bone fragility</td></tr>
+            <tr><td>43</td><td>Owl</td><td>+0</td><td>Darkvision, silent turn</td><td>Light sensitivity</td></tr>
+            <tr><td>44</td><td>Vulture</td><td>+1</td><td>Disease resistance</td><td>Carrion craving</td></tr>
+            <tr><td>45</td><td>Giant Bat</td><td>+0</td><td>Blindsight (short range)</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>46</td><td>Giant Spider</td><td>+1</td><td>Web spit (limited)</td><td>Fire vulnerability</td></tr>
+            <tr><td>47</td><td>Giant Scorpion</td><td>+2</td><td>Venomous bite</td><td>Cold slowed</td></tr>
+            <tr><td>48</td><td>Owlbear</td><td>+3</td><td>Ferocious roar</td><td>Rage triggers easily</td></tr>
+            <tr><td>49</td><td>Displacer Beast</td><td>+2</td><td>Minor displacement blur</td><td>Unstable vision</td></tr>
+            <tr><td>50</td><td>Basilisk</td><td>+2</td><td>Petrifying gaze (slow)</td><td>Eyes must remain open</td></tr>
+
+            <tr class="category"><td colspan="5">51–60 Undead Heads</td></tr>
+
+            <tr><td>51</td><td>Skeleton</td><td>+0</td><td>Poison resistance</td><td>Bludgeoning vulnerability</td></tr>
+            <tr><td>52</td><td>Zombie</td><td>+2</td><td>Undead fortitude</td><td>Fire vulnerability</td></tr>
+            <tr><td>53</td><td>Ghoul</td><td>+1</td><td>Paralytic claws</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>54</td><td>Ghast</td><td>+2</td><td>Stench aura</td><td>Radiant vulnerability</td></tr>
+            <tr><td>55</td><td>Wight</td><td>+1</td><td>Life drain (minor)</td><td>Radiant sensitivity</td></tr>
+            <tr><td>56</td><td>Wraith</td><td>+0</td><td>Incorporeal resistance</td><td>Radiant vulnerability</td></tr>
+            <tr><td>57</td><td>Specter</td><td>-1</td><td>Intangible movement</td><td>Sunlight weakness</td></tr>
+            <tr><td>58</td><td>Vampire Spawn</td><td>+2</td><td>Regeneration (darkness)</td><td>Sunlight &amp; running water harm</td></tr>
+            <tr><td>59</td><td>Mummy</td><td>+3</td><td>Dread glare</td><td>Fire vulnerability</td></tr>
+            <tr><td>60</td><td>Flameskull</td><td>+1</td><td>Fire resistance</td><td>Holy water vulnerability</td></tr>
+
+            <tr class="category"><td colspan="5">61–70 Constructs</td></tr>
+
+            <tr><td>61</td><td>Animated Armor</td><td>+2</td><td>High AC</td><td>Thunder vulnerability</td></tr>
+            <tr><td>62</td><td>Flying Sword</td><td>+0</td><td>Keen edge bite</td><td>Fragile core</td></tr>
+            <tr><td>63</td><td>Helmed Horror</td><td>+2</td><td>Magic resistance</td><td>Cannot remove helmet</td></tr>
+            <tr><td>64</td><td>Shield Guardian</td><td>+3</td><td>Blugioning resistance</td><td>Bound to amulet</td></tr>
+            <tr><td>65</td><td>Stone Golem</td><td>+4</td><td>Poison resistant</td><td>Slow movement</td></tr>
+            <tr><td>66</td><td>Iron Golem</td><td>+4</td><td>Fire absorption</td><td>Lightning vulnerability</td></tr>
+            <tr><td>67</td><td>Flesh Golem</td><td>+3</td><td>Lightning heal</td><td>Fire vulnerability</td></tr>
+            <tr><td>68</td><td>Clockwork Soldier</td><td>+2</td><td>Mechanical precision (advantage on one attack per short rest)</td><td>Vulnerable lightning</td></tr>
+            <tr><td>69</td><td>Quadrone</td><td>+1</td><td>Perfect balance</td><td>Limited emotional range</td></tr>
+            <tr><td>70</td><td>Scarecrow</td><td>+1</td><td>Fear aura</td><td>Fire vulnerability</td></tr>
+
+            <tr class="category"><td colspan="5">71–80 Aberrations</td></tr>
+
+            <tr><td>71</td><td>Mind Flayer</td><td>+1</td><td>Mind blast (short)</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>72</td><td>Aboleth (Reduced)</td><td>+3</td><td>Mucus cloud</td><td>Must stay moist</td></tr>
+            <tr><td>73</td><td>Beholder (Reduced Lesser Eye Tyrant)</td><td>+3</td><td>Random eye ray</td><td>Eye cluster blind spot</td></tr>
+            <tr><td>74</td><td>Spectator</td><td>+2</td><td>Charmed resistance</td><td>Bound guardian instinct</td></tr>
+            <tr><td>75</td><td>Chuul</td><td>+2</td><td>Paralytic bite</td><td>Aquatic dependence</td></tr>
+            <tr><td>76</td><td>Gibbering Mouther</td><td>+2</td><td>Babble confusion</td><td>Speech incoherent</td></tr>
+            <tr><td>77</td><td>Grell</td><td>+1</td><td>Lightning-fast bite</td><td>Lightning vulnerability</td></tr>
+            <tr><td>78</td><td>Intellect Devourer</td><td>+0</td><td>Detect thoughts</td><td>Fragile braincase</td></tr>
+            <tr><td>79</td><td>Nothic</td><td>+1</td><td>Rotting gaze</td><td>Compulsive secrets</td></tr>
+            <tr><td>80</td><td>Slaad</td><td>+2</td><td>Regeneration (minor)</td><td>Chaotic impulse</td></tr>
+
+            <tr class="category"><td colspan="5">81–90 Fiends</td></tr>
+
+            <tr><td>81</td><td>Imp</td><td>+0</td><td>Invisibility (short)</td><td>Radiant vulnerability</td></tr>
+            <tr><td>82</td><td>Quasit</td><td>+0</td><td>Fear (minor)</td><td>Holy symbol repulsion</td></tr>
+            <tr><td>83</td><td>Spined Devil</td><td>+1</td><td>Fiery bite</td><td>Cold vulnerability</td></tr>
+            <tr><td>84</td><td>Bearded Devil</td><td>+2</td><td>Infectious beard tendrils</td><td>Radiant weakness</td></tr>
+            <tr><td>85</td><td>Barbed Devil</td><td>+2</td><td>Barbed horn gore</td><td>Cold vulnerability</td></tr>
+            <tr><td>86</td><td>Horned Devil (Reduced)</td><td>+3</td><td>Fiery aura</td><td>Radiant weakness</td></tr>
+            <tr><td>87</td><td>Erinyes (Reduced)</td><td>+2</td><td>Charm gaze</td><td>Bound by infernal contract</td></tr>
+            <tr><td>88</td><td>Bone Devil</td><td>+2</td><td>Venomous bite</td><td>Radiant sensitivity</td></tr>
+            <tr><td>89</td><td>Vrock (Reduced)</td><td>+2</td><td>Stunning screech</td><td>Radiant vulnerability</td></tr>
+            <tr><td>90</td><td>Hezrou (Reduced)</td><td>+3</td><td>Stench aura</td><td>Holy ground weakness</td></tr>
+
+            <tr class="category"><td colspan="5">91–100 Legendary</td></tr>
+
+            <tr><td>91</td><td>Lich</td><td>+2</td><td>Legendary resistance (1/day)</td><td>Phylactery dependency</td></tr>
+            <tr><td>92</td><td>Death Knight</td><td>+3</td><td>Hellfire smite (minor)</td><td>Bound to oath</td></tr>
+            <tr><td>93</td><td>Hydra (Single-Head Variant)</td><td>+3</td><td>Head regrow (1/day)</td><td>Fire prevents regen</td></tr>
+            <tr><td>94</td><td>Dracolich Wyrmling (Medium)</td><td>+2</td><td>Necrotic breath (minor)</td><td>Radiant vulnerability</td></tr>
+            <tr><td>95</td><td>Pit Fiend (Reduced Aspect)</td><td>+4</td><td>Fear aura</td><td>Radiant weakness</td></tr>
+            <tr><td>96</td><td>Solar (Fallen Aspect)</td><td>+3</td><td>Radiant burst (minor)</td><td>Bound by divine law</td></tr>
+            <tr><td>97</td><td>Kraken Spawn (Medium)</td><td>+3</td><td>Lightning shock</td><td>Must stay damp</td></tr>
+            <tr><td>98</td><td>Elder Brain Fragment</td><td>+2</td><td>Telepathic web</td><td>Psychic overload risk</td></tr>
+            <tr><td>99</td><td>Demilich</td><td>+2</td><td>Soul trap (1/day)</td><td>Must feed on souls</td></tr>
+            <tr><td>100</td><td>DM-Forged Head</td><td>Variable</td><td>Variable</td><td>Variable</td></tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

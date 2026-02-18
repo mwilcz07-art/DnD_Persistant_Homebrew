@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arm Table (1–100)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .table-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161616;
+            color: #d6d6d6;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background-color: #1f1f1f;
+            color: #ff6666;
+            padding: 12px;
+            border-bottom: 2px solid #550000;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Alternating row color */
+        tbody tr:nth-child(even):not(.category) {
+            background-color: #1a1a1a;
+        }
+
+        tbody tr:nth-child(odd):not(.category) {
+            background-color: #141414;
+        }
+
+        /* Category header rows */
+        .category td {
+            background-color: #220000;
+            color: #ff6666;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        /* Emphasize roll column */
+        td:first-child {
+            font-weight: bold;
+            color: #ff4c4c;
+            width: 6%;
+        }
+
+        /* Slight hover highlight */
+        tbody tr:hover:not(.category) {
+            background-color: #252525;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background-color: #0f0f0f;
+            color: #cfcfcf;
+        }
+
+        a {
+            color: #b33939;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #8c2f2f;
+        }
+
+        a:hover {
+            color: #ff4c4c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+
+    <h1>Arm Table (1–100)</h1>
+
+     <p><a href="Hatred's_Persistence_Index#rule2" class="return-link">← Return to Rule Index</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Arm Type</th>
+                <th>STR</th>
+                <th>DEX</th>
+                <th>Feature</th>
+                <th>Drawback</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="category"><td colspan="6">1–10 PHB Race Arms</td></tr>
+
+            <tr><td>1</td><td>Human</td><td>+1</td><td>+0</td><td>Versatile grip</td><td>None</td></tr>
+            <tr><td>2</td><td>Dwarf</td><td>+1</td><td>-1</td><td>Powerful hammer grip</td><td>Stocky reach</td></tr>
+            <tr><td>3</td><td>Elf</td><td>+1</td><td>+2</td><td>Fine motor precision</td><td>Light frame</td></tr>
+            <tr><td>4</td><td>Halfling</td><td>+1</td><td>+2</td><td>Nimble handling</td><td>Short reach</td></tr>
+            <tr><td>5</td><td>Gnome</td><td>+1</td><td>+2</td><td>Tinker precision</td><td>Low lifting power</td></tr>
+            <tr><td>6</td><td>Half-Elf</td><td>+1</td><td>+1</td><td>Graceful coordination</td><td>Slight build</td></tr>
+            <tr><td>7</td><td>Half-Orc</td><td>+1</td><td>+0</td><td>Crushing grip</td><td>Intimidating posture</td></tr>
+            <tr><td>8</td><td>Dragonborn</td><td>+1</td><td>+0</td><td>Clawed hands</td><td>Elemental instability</td></tr>
+            <tr><td>9</td><td>Tiefling</td><td>+1</td><td>+1</td><td>Agile fingers</td><td>Radiant sensitivity</td></tr>
+            <tr><td>10</td><td>Variant Human</td><td>+1</td><td>+0</td><td>Weapon familiarity</td><td>None</td></tr>
+
+            <tr class="category"><td colspan="6">11–30 Monster Arms</td></tr>
+
+            <tr><td>11</td><td>Minotaur</td><td>+1</td><td>-2</td><td>Massive forearms (adv shove)</td><td>Heavy recovery</td></tr>
+            <tr><td>12</td><td>Gnoll</td><td>+1</td><td>+0</td><td>Savage claw strikes</td><td>Bloodlust impulse</td></tr>
+            <tr><td>13</td><td>Lizardfolk</td><td>+1</td><td>+0</td><td>Natural claws</td><td>Cold stiffness</td></tr>
+            <tr><td>14</td><td>Yuan-ti</td><td>+1</td><td>+2</td><td>Serpentine flexibility</td><td>Radiant vulnerability</td></tr>
+            <tr><td>15</td><td>Hobgoblin</td><td>+1</td><td>+0</td><td>Martial discipline</td><td>Rigid stance</td></tr>
+            <tr><td>16</td><td>Bugbear</td><td>+1</td><td>-1</td><td>Extended reach arms</td><td>Poor finesse</td></tr>
+            <tr><td>17</td><td>Kobold</td><td>+1</td><td>+2</td><td>Quick stabbing motions</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>18</td><td>Orc</td><td>+1</td><td>-1</td><td>Aggressive swings</td><td>Overcommitment</td></tr>
+            <tr><td>19</td><td>Troglodyte</td><td>+1</td><td>-1</td><td>Clawed grip</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>20</td><td>Merrow</td><td>+1</td><td>+0</td><td>Powerful swimming strokes</td><td>Drying weakness</td></tr>
+            <tr><td>21</td><td>Harpy</td><td>+1</td><td>+2</td><td>Talon grip, Glide up to movement speed</td><td>Hollow bone fragility</td></tr>
+            <tr><td>22</td><td>Ettin</td><td>+1</td><td>-2</td><td>Dual coordination (1 extra off-hand attack/short rest)</td><td>Desynced timing</td></tr>
+            <tr><td>23</td><td>Lamia</td><td>+1</td><td>+1</td><td>Hypnotic gesture</td><td>Narcissistic distraction</td></tr>
+            <tr><td>24</td><td>Medusa</td><td>+1</td><td>+1</td><td>Venom-laced strikes</td><td>Reflection avoidance</td></tr>
+            <tr><td>25</td><td>Sahuagin</td><td>+1</td><td>+0</td><td>Blood frenzy claw</td><td>Needs moisture</td></tr>
+            <tr><td>26</td><td>Kenku</td><td>+1</td><td>+2</td><td>Quick mimic gestures</td><td>Limited creativity</td></tr>
+            <tr><td>27</td><td>Tabaxi</td><td>+1</td><td>+3</td><td>Razor claws</td><td>Curiosity compulsion</td></tr>
+            <tr><td>28</td><td>Tortle</td><td>+1</td><td>-2</td><td>Thick scaled forearms</td><td>Slow articulation</td></tr>
+            <tr><td>29</td><td>Aarakocra</td><td>+1</td><td>+3</td><td>Feather-light precision, Glide up to movement speed</td><td>Fragile bones</td></tr>
+            <tr><td>30</td><td>Triton</td><td>+1</td><td>+0</td><td>Aquatic weapon control</td><td>Land fatigue</td></tr>
+
+            <tr class="category"><td colspan="6">31–50 Creature Arms</td></tr>
+
+            <tr><td>31</td><td>Wolf</td><td>+1</td><td>+0</td><td>Rending claws</td><td>Pack instinct</td></tr>
+            <tr><td>32</td><td>Bear</td><td>+1</td><td>-2</td><td>Heavy mauling claws</td><td>Slow recovery</td></tr>
+            <tr><td>33</td><td>Lion</td><td>+1</td><td>+1</td><td>Pouncing rake</td><td>Territorial aggression</td></tr>
+            <tr><td>34</td><td>Tiger</td><td>+1</td><td>+2</td><td>Precise claw flurry</td><td>Predatory fixation</td></tr>
+            <tr><td>35</td><td>Boar</td><td>+1</td><td>-1</td><td>Brutal swipes</td><td>Stubborn momentum</td></tr>
+            <tr><td>36</td><td>Ram</td><td>+1</td><td>-1</td><td>Dense forelimbs</td><td>Limited articulation</td></tr>
+            <tr><td>37</td><td>Bull</td><td>+1</td><td>-2</td><td>Powerful swings</td><td>Easily provoked</td></tr>
+            <tr><td>38</td><td>Crocodile</td><td>+1</td><td>-2</td><td>Crushing grip</td><td>Slow release</td></tr>
+            <tr><td>39</td><td>Giant Toad</td><td>+1</td><td>+0</td><td>Sticky grasp</td><td>Dry weakness</td></tr>
+            <tr><td>40</td><td>Giant Lizard</td><td>+1</td><td>+0</td><td>Climbing grip</td><td>Cold slowed</td></tr>
+            <tr><td>41</td><td>Giant Snake</td><td>+1</td><td>+2</td><td>Coiling restraint</td><td>Limited finger use</td></tr>
+            <tr><td>42</td><td>Eagle</td><td>+1</td><td>+3</td><td>Talon precision, Glide up to movement speed</td><td>Hollow bone fragility</td></tr>
+            <tr><td>43</td><td>Owl</td><td>+1</td><td>+3</td><td>Silent grab, Glide up to movement speed</td><td>Light sensitivity</td></tr>
+            <tr><td>44</td><td>Vulture</td><td>+1</td><td>+0</td><td>Carrion tearing</td><td>Carrion craving</td></tr>
+            <tr><td>45</td><td>Giant Bat</td><td>+1</td><td>+3</td><td>Hooked wing grip, Glide up to movement speed</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>46</td><td>Giant Spider</td><td>+1</td><td>+1</td><td>Web-assisted grapple</td><td>Fire vulnerability</td></tr>
+            <tr><td>47</td><td>Giant Scorpion</td><td>+1</td><td>+0</td><td>Pincer crush</td><td>Cold slowed</td></tr>
+            <tr><td>48</td><td>Owlbear</td><td>+1</td><td>-1</td><td>Savage rake</td><td>Rage trigger</td></tr>
+            <tr><td>49</td><td>Displacer Beast</td><td>+1</td><td>+2</td><td>Blurred strikes (disadv first attack vs you/short rest)</td><td>Visual distortion</td></tr>
+            <tr><td>50</td><td>Basilisk</td><td>+1</td><td>+0</td><td>Stone-hard grip</td><td>Eye vulnerability</td></tr>
+
+            <tr class="category"><td colspan="6">51–60 Undead Arms</td></tr>
+
+            <tr><td>51</td><td>Skeleton</td><td>+1</td><td>+2</td><td>Quick bones</td><td>Bludgeoning vulnerability</td></tr>
+            <tr><td>52</td><td>Zombie</td><td>+1</td><td>-2</td><td>Unstoppable grip</td><td>Fire vulnerability</td></tr>
+            <tr><td>53</td><td>Ghoul</td><td>+1</td><td>+1</td><td>Paralytic claws</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>54</td><td>Ghast</td><td>+1</td><td>+0</td><td>Stench aura</td><td>Radiant vulnerability</td></tr>
+            <tr><td>55</td><td>Wight</td><td>+1</td><td>+0</td><td>Life-draining strike</td><td>Radiant sensitivity</td></tr>
+            <tr><td>56</td><td>Wraith</td><td>+1</td><td>+2</td><td>Phase swipe</td><td>Radiant vulnerability</td></tr>
+            <tr><td>57</td><td>Specter</td><td>+1</td><td>+2</td><td>Ethereal grasp</td><td>Sunlight weakness</td></tr>
+            <tr><td>58</td><td>Vampire Spawn</td><td>+1</td><td>+3</td><td>Regenerative claws</td><td>Sunlight harm</td></tr>
+            <tr><td>59</td><td>Mummy</td><td>+1</td><td>-2</td><td>Binding wraps</td><td>Fire vulnerability</td></tr>
+            <tr><td>60</td><td>Flameskull</td><td>+1</td><td>+0</td><td>Fire lash</td><td>Holy water weakness</td></tr>
+
+            <tr class="category"><td colspan="6">61–70 Construct Arms</td></tr>
+
+            <tr><td>61</td><td>Animated Armor</td><td>+1</td><td>+0</td><td>Reinforced joints</td><td>Thunder vulnerability</td></tr>
+            <tr><td>62</td><td>Helmed Horror</td><td>+1</td><td>+0</td><td>Magic-resistant plating</td><td>Bound armor</td></tr>
+            <tr><td>63</td><td>Shield Guardian</td><td>+1</td><td>+0</td><td>Protective block reaction</td><td>Amulet bound</td></tr>
+            <tr><td>64</td><td>Stone Golem</td><td>+1</td><td>-2</td><td>Massive slam</td><td>Slow articulation</td></tr>
+            <tr><td>65</td><td>Iron Golem</td><td>+1</td><td>-2</td><td>Crushing metal fists</td><td>Lightning vulnerability</td></tr>
+            <tr><td>66</td><td>Flesh Golem</td><td>+1</td><td>+0</td><td>Lightning surge</td><td>Fire vulnerability</td></tr>
+            <tr><td>67</td><td>Quadrone</td><td>+1</td><td>+1</td><td>Perfect symmetrical motion</td><td>Predictable rhythm</td></tr>
+            <tr><td>68</td><td>Clockwork Soldier</td><td>+1</td><td>+2</td><td>Precision calibration</td><td>Lightning vulnerability</td></tr>
+            <tr><td>69</td><td>Scarecrow</td><td>+1</td><td>+0</td><td>Fear-inducing grasp</td><td>Fire vulnerability</td></tr>
+            <tr><td>70</td><td>Iron Defender</td><td>+1</td><td>+1</td><td>Guard reflex</td><td>Command bound</td></tr>
+
+            <tr class="category"><td colspan="6">71–80 Aberration Arms</td></tr>
+
+            <tr><td>71</td><td>Mind Flayer</td><td>+1</td><td>+1</td><td>Psychic tentacle grip</td><td>Sunlight sensitivity</td></tr>
+            <tr><td>72</td><td>Aboleth</td><td>+1</td><td>+0</td><td>Slime-coated hold</td><td>Must stay moist</td></tr>
+            <tr><td>73</td><td>Beholder (Reduced)</td><td>+1</td><td>+0</td><td>Telekinetic shove</td><td>Central eye blind spot</td></tr>
+            <tr><td>74</td><td>Spectator</td><td>+1</td><td>+0</td><td>Spell-reflect gesture</td><td>Guardian fixation</td></tr>
+            <tr><td>75</td><td>Chuul</td><td>+1</td><td>+0</td><td>Paralytic pincer</td><td>Aquatic dependence</td></tr>
+            <tr><td>76</td><td>Gibbering Mouther</td><td>+1</td><td>-1</td><td>Grasping mouths</td><td>Incoherent motion</td></tr>
+            <tr><td>77</td><td>Grell</td><td>+1</td><td>+2</td><td>Lightning-fast tentacles</td><td>Lightning vulnerability</td></tr>
+            <tr><td>78</td><td>Intellect Devourer</td><td>+1</td><td>+2</td><td>Brain-target strike</td><td>Fragile shell</td></tr>
+            <tr><td>79</td><td>Nothic</td><td>+1</td><td>+0</td><td>Rotting touch</td><td>Compulsive secrets</td></tr>
+            <tr><td>80</td><td>Slaad</td><td>+1</td><td>+2</td><td>Chaotic flurry</td><td>Unstable mutation</td></tr>
+
+            <tr class="category"><td colspan="6">81–90 Fiend Arms</td></tr>
+
+            <tr><td>81</td><td>Imp</td><td>+1</td><td>+3</td><td>Invisible stab (1/short rest)</td><td>Radiant vulnerability</td></tr>
+            <tr><td>82</td><td>Quasit</td><td>+1</td><td>+3</td><td>Fear scratch</td><td>Holy symbol repulsion</td></tr>
+            <tr><td>83</td><td>Spined Devil</td><td>+1</td><td>+1</td><td>Spine flick</td><td>Cold vulnerability</td></tr>
+            <tr><td>84</td><td>Bearded Devil</td><td>+1</td><td>+0</td><td>Infectious beard lash</td><td>Radiant weakness</td></tr>
+            <tr><td>85</td><td>Barbed Devil</td><td>+1</td><td>+0</td><td>Retributive thorns</td><td>Cold vulnerability</td></tr>
+            <tr><td>86</td><td>Horned Devil</td><td>+1</td><td>+0</td><td>Fiery slam</td><td>Radiant weakness</td></tr>
+            <tr><td>87</td><td>Erinyes</td><td>+1</td><td>+3</td><td>Elegant precision</td><td>Contract bound</td></tr>
+            <tr><td>88</td><td>Bone Devil</td><td>+1</td><td>+0</td><td>Venom slash</td><td>Radiant sensitivity</td></tr>
+            <tr><td>89</td><td>Vrock</td><td>+1</td><td>+1</td><td>Stunning rake</td><td>Radiant vulnerability</td></tr>
+            <tr><td>90</td><td>Hezrou</td><td>+1</td><td>+0</td><td>Crushing grip</td><td>Holy ground weakness</td></tr>
+
+            <tr class="category"><td colspan="6">91–100 Legendary / Mythic Arms</td></tr>
+
+            <tr><td>91</td><td>Lich</td><td>+1</td><td>+1</td><td>Paralyzing touch</td><td>Phylactery dependency</td></tr>
+            <tr><td>92</td><td>Death Knight</td><td>+1</td><td>+0</td><td>Hellfire strike</td><td>Oath-bound curse</td></tr>
+            <tr><td>93</td><td>Hydra (Single Variant)</td><td>+1</td><td>+0</td><td>Regrowing limb (1/day)</td><td>Fire halts regen</td></tr>
+            <tr><td>94</td><td>Dracolich Wyrmling</td><td>+1</td><td>+0</td><td>Necrotic slash</td><td>Radiant vulnerability</td></tr>
+            <tr><td>95</td><td>Pit Fiend (Aspect)</td><td>+1</td><td>+2</td><td>Fear-infused strike</td><td>Radiant weakness</td></tr>
+            <tr><td>96</td><td>Fallen Solar (Aspect)</td><td>+1</td><td>+3</td><td>Radiant blade precision</td><td>Divine binding</td></tr>
+            <tr><td>97</td><td>Kraken Spawn</td><td>+1</td><td>+0</td><td>Lightning grapple</td><td>Must stay damp</td></tr>
+            <tr><td>98</td><td>Elder Brain Fragment</td><td>+1</td><td>+2</td><td>Telekinetic manipulation</td><td>Psychic overload</td></tr>
+            <tr><td>99</td><td>Demilich</td><td>+1</td><td>+1</td><td>Soul siphon touch</td><td>Must feed on souls</td></tr>
+            <tr><td>100</td><td>DM-Forged Arms</td><td>+1</td><td>(-2 to +3)</td><td>Variable</td><td>Variable</td></tr>
+     
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

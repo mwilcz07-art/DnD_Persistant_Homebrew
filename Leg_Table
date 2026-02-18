@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leg Table (1–100)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .table-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161616;
+            color: #d6d6d6;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background-color: #1f1f1f;
+            color: #ff6666;
+            padding: 12px;
+            border-bottom: 2px solid #550000;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Alternating row color */
+        tbody tr:nth-child(even):not(.category) {
+            background-color: #1a1a1a;
+        }
+
+        tbody tr:nth-child(odd):not(.category) {
+            background-color: #141414;
+        }
+
+        /* Category header rows */
+        .category td {
+            background-color: #220000;
+            color: #ff6666;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        /* Emphasize roll column */
+        td:first-child {
+            font-weight: bold;
+            color: #ff4c4c;
+            width: 6%;
+        }
+
+        /* Slight hover highlight */
+        tbody tr:hover:not(.category) {
+            background-color: #252525;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background-color: #0f0f0f;
+            color: #cfcfcf;
+        }
+
+        a {
+            color: #b33939;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #8c2f2f;
+        }
+
+        a:hover {
+            color: #ff4c4c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+
+    <h1>Leg Table (1–100)</h1>
+
+     <p><a href="Hatred's_Persistence_Index#rule2" class="return-link">← Return to Rule Index</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Leg Type</th>
+                <th>STR</th>
+                <th>DEX</th>
+                <th>Feature</th>
+                <th>Drawback</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="category"><td colspan="6">1–10 PHB Race Leg</td></tr>
+
+            <tr><td>1</td><td>Human Athlete’s Leg</td><td>+1</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>2</td><td>Elf Fleet Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>3</td><td>Dwarf Stout Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>4</td><td>Halfling Quickstep Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>5</td><td>Dragonborn Scaled Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>6</td><td>Gnome Compact Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+            <tr><td>7</td><td>Half-Orc Powerful Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>8</td><td>Tiefling Cloven Leg</td><td>+1</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>9</td><td>Half-Elf Balanced Leg</td><td>+1</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>10</td><td>Human Variant Veteran Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">11–30 Monster Leg</td></tr>
+
+            <tr><td>11</td><td>Ogre Pillar Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>12</td><td>Troll Regrowth Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>13</td><td>Minotaur Hoof Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>14</td><td>Gnoll Hunter Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>15</td><td>Bugbear Stalker Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>16</td><td>Hobgoblin Soldier Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>17</td><td>Goblin Skitter Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>18</td><td>Orc Raider Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>19</td><td>Lizardfolk Marsh Leg</td><td>+1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>20</td><td>Yuan-ti Scaled Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+            <tr><td>21</td><td>Giant Spider Limb Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>22</td><td>Ettercap Jagged Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>23</td><td>Manticore Talon Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>24</td><td>Chimera Brute Leg</td><td>0</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>25</td><td>Kenku Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>26</td><td>Tabaxi Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>27</td><td>Wood Peg Leg</td><td>-1</td><td>0</td><td>0 ft</td></tr>
+            <tr><td>28</td><td>Metal Peg Leg</td><td>-1</td><td>0</td><td>0 ft</td></tr>
+            <tr><td>29</td><td>Bone Peg Leg</td><td>-1</td><td>0</td><td>0 ft</td></tr>
+            <tr><td>30</td><td>Basilisk Stalker Leg</td><td>+1</td><td>+2</td><td>-5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">31–50 Creature Leg</td></tr>
+
+            <tr><td>31</td><td>Wolf Runner Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>32</td><td>Bear Thick Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>33</td><td>Tiger Spring Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>34</td><td>Lion Power Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>35</td><td>Panther Silent Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>36</td><td>Cheetah Sprint Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>37</td><td>Stag Leap Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>38</td><td>Elk Heavy Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>39</td><td>Goat Climber Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>40</td><td>Ram Charge Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>41</td><td>Elephant Column Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>42</td><td>Rhinoceros Charge Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>43</td><td>Kangaroo Spring Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>44</td><td>Frog Leaper Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>45</td><td>Crocodile Drag Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>46</td><td>Ostrich Runner Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>47</td><td>Eagle Talon Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>48</td><td>Owl Silent Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>49</td><td>Hyena Endurance Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>50</td><td>Boar Bristle Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">51–60 Undead Leg</td></tr>
+
+            <tr><td>51</td><td>Skeleton Rattle Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+            <tr><td>52</td><td>Zombie Rot Leg</td><td>-2</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>53</td><td>Ghoul Twitch Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>54</td><td>Wight Grave Leg</td><td>+1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>55</td><td>Vampire Predator Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>56</td><td>Revenant Vengeful Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>57</td><td>Mummy Withered Leg</td><td>-2</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>58</td><td>Death Knight Armored Leg</td><td>-1</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>59</td><td>Specter Flicker Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>60</td><td>Lich Withered Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">61–70 Construct Leg</td></tr>
+
+            <tr><td>61</td><td>Iron Golem Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>62</td><td>Stone Golem Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>63</td><td>Clockwork Soldier Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>64</td><td>Warforged Reinforced Leg</td><td>0</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>65</td><td>Animated Armor Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>66</td><td>Bronze Sentinel Leg</td><td>-1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>67</td><td>Steel Defender Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>68</td><td>Arcane Puppet Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>69</td><td>Crystal Construct Leg</td><td>+1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>70</td><td>Titan Automaton Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">71–80 Aberration Leg</td></tr>
+
+            <tr><td>71</td><td>Mind Flayer Tendon Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>72</td><td>Beholder Spawn Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>73</td><td>Aboleth Slime Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+            <tr><td>74</td><td>Chuul Clacker Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>75</td><td>Gibbering Mouther Limb Leg</td><td>0</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>76</td><td>Hook Horror Jagged Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>77</td><td>Otyugh Filth Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>78</td><td>Star Spawn Twisted Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>79</td><td>Slaad Warped Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>80</td><td>Elder Brain Spawn Leg</td><td>+1</td><td>+1</td><td>-5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">81–90 Fiend Leg</td></tr>
+
+            <tr><td>81</td><td>Imp Clawed Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>82</td><td>Barbed Devil Leg</td><td>+1</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>83</td><td>Horned Devil Hoof Leg</td><td>-1</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>84</td><td>Pit Fiend Tyrant Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>85</td><td>Balor Flame Leg</td><td>+2</td><td>+3</td><td>+5 ft</td></tr>
+            <tr><td>86</td><td>Marilith Scaled Leg</td><td>+2</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>87</td><td>Cambion Hunter Leg</td><td>+2</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>88</td><td>Hezrou Swamp Leg</td><td>-1</td><td>+2</td><td>-5 ft</td></tr>
+            <tr><td>89</td><td>Glabrezu Massive Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>90</td><td>Erinyes Winged Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+
+            <tr class="category"><td colspan="6">91–100 Legendary / Mythic Leg</td></tr>
+
+            <tr><td>91</td><td>Dragon Champion Leg</td><td>+2</td><td>+3</td><td>+5 ft</td></tr>
+            <tr><td>92</td><td>Tentacle Leg</td><td>-1</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>93</td><td>Phoenix Rebirth Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>94</td><td>Tarrasque Bone Fragment Peg Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>95</td><td>Celestial Paragon Leg</td><td>+3</td><td>+2</td><td>+5 ft</td></tr>
+            <tr><td>96</td><td>Primordial Earthshaker Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>97</td><td>Time-Touched Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>98</td><td>Voidwalker Leg</td><td>+3</td><td>+1</td><td>+5 ft</td></tr>
+            <tr><td>99</td><td>Worldbreaker Titan Leg</td><td>-2</td><td>+3</td><td>-5 ft</td></tr>
+            <tr><td>100</td><td>Dungeon Master’s Custom Leg</td><td>Variable</td><td>Variable</td><td>Determined by DM</td></tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

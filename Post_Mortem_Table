@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Mortem Integrity Check</title>
+    <style>
+
+        .table-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #161616;
+            color: #d6d6d6;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+
+        th {
+            background-color: #1f1f1f;
+            color: #ff6666;
+            padding: 12px;
+            border-bottom: 2px solid #550000;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #222;
+        }
+
+        /* Alternating row color */
+        tbody tr:nth-child(even):not(.category) {
+            background-color: #1a1a1a;
+        }
+
+        tbody tr:nth-child(odd):not(.category) {
+            background-color: #141414;
+        }
+
+        /* Category header rows */
+        .category td {
+            background-color: #220000;
+            color: #ff6666;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 10px;
+        }
+
+        /* Emphasize roll column */
+        td:first-child {
+            font-weight: bold;
+            color: #ff4c4c;
+            width: 6%;
+        }
+
+        /* Slight hover highlight */
+        tbody tr:hover:not(.category) {
+            background-color: #252525;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Georgia", serif;
+            background-color: #0f0f0f;
+            color: #cfcfcf;
+        }
+
+        a {
+            color: #b33939;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #8c2f2f;
+        }
+
+        a:hover {
+            color: #ff4c4c;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Post Mortem Integrity Check</h1>
+
+<p><a href="Hatred's_Persistence_Index#rule4">Return to Rule Index</a></p>
+
+<hr>
+
+<h2>STEP 1 — DESTRUCTION SEVERITY</h2>
+
+<p>
+Immediately upon death, roll <strong>1d6</strong> to determine overall bodily damage.
+This roll replaces DM hand-picking unless a spell or effect explicitly destroys the body (Rule I),
+or the DM chooses to override.
+</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>1d6 Roll</th>
+            <th>Destruction Severity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>Minimal Damage</td></tr>
+        <tr><td>2</td><td>Moderate Damage</td></tr>
+        <tr><td>3</td><td>Severe Damage</td></tr>
+        <tr><td>4</td><td>Critical Damage</td></tr>
+        <tr><td>5</td><td>Extreme Damage</td></tr>
+        <tr><td>6</td><td>Near-Annihilation</td></tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>STEP 2 — BODY PART SURVIVAL</h2>
+
+<p>
+For each body part, roll <strong>1d20</strong> and compare the result to the survival
+threshold for the current destruction severity.
+If the roll meets or exceeds the listed number, the body part survives.
+If it fails, that body part is destroyed.
+</p>
+
+<hr>
+
+<h3>HEAD — Survival Thresholds</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Destruction Severity</th>
+            <th>Roll Required (1d20)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Minimal</td><td>5+</td></tr>
+        <tr><td>Moderate</td><td>7+</td></tr>
+        <tr><td>Severe</td><td>10+</td></tr>
+        <tr><td>Critical</td><td>13+</td></tr>
+        <tr><td>Extreme</td><td>16+</td></tr>
+        <tr><td>Near-Annihilation</td><td>19+</td></tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h3>TORSO — Survival Thresholds</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Destruction Severity</th>
+            <th>Roll Required (1d20)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Minimal</td><td>3+</td></tr>
+        <tr><td>Moderate</td><td>5+</td></tr>
+        <tr><td>Severe</td><td>8+</td></tr>
+        <tr><td>Critical</td><td>11+</td></tr>
+        <tr><td>Extreme</td><td>14+</td></tr>
+        <tr><td>Near-Annihilation</td><td>17+</td></tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h3>ARMS — Survival Thresholds</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Destruction Severity</th>
+            <th>Roll Required (1d20)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Minimal</td><td>6+</td></tr>
+        <tr><td>Moderate</td><td>8+</td></tr>
+        <tr><td>Severe</td><td>12+</td></tr>
+        <tr><td>Critical</td><td>15+</td></tr>
+        <tr><td>Extreme</td><td>18+</td></tr>
+        <tr><td>Near-Annihilation</td><td>20</td></tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h3>LEGS — Survival Thresholds</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Destruction Severity</th>
+            <th>Roll Required (1d20)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Minimal</td><td>6+</td></tr>
+        <tr><td>Moderate</td><td>8+</td></tr>
+        <tr><td>Severe</td><td>12+</td></tr>
+        <tr><td>Critical</td><td>15+</td></tr>
+        <tr><td>Extreme</td><td>18+</td></tr>
+        <tr><td>Near-Annihilation</td><td>20</td></tr>
+    </tbody>
+</table>
+
+<hr>
+
+<p><a href="Hatred's_Persistence_Index#rule4">Return to Rule Index</a></p>
+
+</body>
+</html>
+
