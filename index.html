@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Reconstruction System</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+            body {
+                margin: 0;
+                font-family: "Georgia", serif;
+                background-color: #0f0f0f;
+                color: #cfcfcf;
+                line-height: 1.6;
+            }
+
+            .container {
+                display: flex;
+            }
+
+            /* LEFT SIDEBAR */
+            .sidebar {
+                width: 20%;
+                background-color: #1a1a1a;
+                padding: 20px;
+                height: 100vh;
+                position: fixed;
+                overflow-y: auto;
+                border-right: 2px solid #800000;
+            }
+
+            .sidebar h2 {
+                color: #e74c3c;
+                margin-top: 0;
+            }
+
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .sidebar li {
+                margin-bottom: 10px;
+            }
+
+            .sidebar a {
+                text-decoration: none;
+                color: #b33939;
+                font-weight: 500;
+            }
+
+            .sidebar a:hover {
+                color: #ff4c4c;
+            }
+
+            /* RIGHT CONTENT */
+            .content {
+                margin-left: 20%;
+                width: 80%;
+                padding: 60px 80px;
+            }
+
+            section {
+                margin-bottom: 80px;
+                padding: 30px;
+                background-color: #161616;
+                border: 1px solid #222;
+                border-radius: 6px;
+                box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+            }
+
+            h1 {
+                color: #ff6666;
+                padding-bottom: 12px;
+                border-bottom: 2px solid #550000;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 600;
+                position: relative;
+            }
+
+            h1::after {
+                content: "";
+                display: block;
+                width: 60px;
+                height: 2px;
+                background-color: #aa0000;
+                margin-top: 8px;
+            }
+
+            a {
+                color: #b33939;  /* muted blood red */
+            }
+
+            a:visited {
+                color: #8c2f2f;
+            }
+
+            a:hover {
+                color: #ff4c4c;
+                text-decoration: underline;
+            }
+
+            h3 {
+                color: #d94a4a;
+                margin-top: 25px;
+                margin-bottom: 10px;
+                letter-spacing: 1px;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar">
+                <h2>RULE INDEX</h2>
+                <ul>
+                    <li><a href="#rule1">Rule I</a></li>
+                    <li><a href="#rule2">Rule II</a></li>
+                    <li><a href="#rule3">Rule III</a></li>
+                    <li><a href="#rule4">Rule IV</a></li>
+                    <li><a href="#rule5">Rule V</a></li>
+                    <li><a href="#rule6">Rule VI</a></li>
+                    <li><a href="#rule7">Rule VII</a></li>
+                    <li><a href="#rule8">Rule VIII</a></li>
+                    <li><a href="#rule9">Rule IX</a></li>
+                    <li><a href="#rule10">Rule X</a></li>
+                </ul>
+            </aside>
+
+            <!-- RIGHT CONTENT -->
+            <main class="content">
+
+                <section id="rule1">
+                    <h1>RULE I — TOTAL FLESH DESTRUCTION</h1>
+                    <p>
+                        If all flesh associated with the character’s soul is destroyed,
+                        the character dies permanently and cannot return.
+                    </p>
+                    <p>
+                        This includes but is not limited to:
+                    </p>
+                    <ul>
+                        <li>Disintegration effects</li>
+                        <li>Total incineration to ash</li>
+                        <li>Complete acid dissolution</li>
+                        <li>Divine or planar annihilation</li>
+                        <li>Any effect that leaves no viable material for reconstruction</li>
+                    </ul>
+                    <p>If any flesh or compatible material remains, the soul may attempt to persist.</p>
+
+                </section>
+
+                <section id="rule2">
+                    <h1>RULE II — RECONSTRUCTION THROUGH REFUSAL</h1>
+                    <p>
+                        When reduced to 0 HP and Rule I is not triggered:
+                        No death saving throws are made.
+                        The character is considered dead.
+                        After hours or days (DM discretion), the soul rebuilds a body
+                        using available materials.
+                    </p>
+
+                    <h3>Partial Reconstruction Without Death</h3>
+                    <p>If a body part is removed or destroyed without the character reaching 0 HP, the character may still undergo reconstruction to replace only that part, provided:</p>
+                    <ul>
+                        <li>The loss was not intentional</li>
+                        <li>Adequate time and materials are available</li>
+                        <li>The process cannot occur during combat, a short rest, or any similarly immediate timeframe</li>
+                    </ul>
+                    <p>The DM determines narrative feasibility and duration.</p>
+
+                    <h3>Reconstruction Tables</h3>
+                    <ul>
+                        <li><a href="Head_Table">Head Table</a></li>
+                        <li><a href="Torso_Table">Torso Table</a></li>
+                        <li><a href="Arm_table">Arm Table</a></li>
+                        <li><a href="Leg_Table">Leg Table</a></li>
+                    </ul>
+                </section>
+
+                <section id="rule3">
+                    <h1>RULE III — WEAPON TOKENS</h1>
+                    <p>
+                        With each death there's a lesson. This, will determine weather the lesson was learned.
+                    </p>
+                    <h3>Gaining Weapon Tokens</h3>
+                    <p>Upon each death and successful reconstruction:</p>
+                    <ul>
+                        <li>Gain 1d3 Weapon Tokens</li>
+                        <li>The character may hold no more than 3 Weapon Tokens at any time</li>
+                        <li>Excess tokens are lost</li>
+                    </ul>
+                    <h3>Spending Weapon Tokens</h3>
+                    <p>Weapon Tokens may only be spent during reconstruction to integrate weapons directly into the body.</p>
+                    <p>Integrated weapons:</p>
+                    <ul>
+                        <li>Are part of the body</li>
+                        <li>Do not occupy hands</li>
+                        <li>Cannot be disarmed or dropped</li>
+                        <li>Use normal attack actions</li>
+                        <li>Do not grant extra attacks</li>
+                    </ul>
+                    <h3>Weapon Token Costs</h3>
+                    <ul>
+                        <li>1 Token: Simple weapon, light martial weapon, or natural weapon like claws, horns, and stingers</li>
+                        <li>2 Tokens: Heavy martial weapon or integrated ranged weapon</li>
+                        <li>3 Tokens: Specialized adaptive weapon designed to counter the most recent cause of death (DM approval required)</li>
+                    </ul>
+                </section>
+
+                <section id="rule4">
+                    <h1>RULE IV — POST-MORTEM INTEGRITY CHECK</h1>
+                    <p>
+                        When the character is reduced to 0 HP and Rule I is not immediately triggered, determine how much of the body remains viable for reconstruction.
+                        This represents:
+                    </p>
+
+                    <ul>
+                        <li>Overkill damage</li>
+                        <li>Method of death</li>
+                        <li>Environmental hazards</li>
+                        <li>Violence after the killing blow</li>
+                    </ul>
+                    <p>
+                        <a href="Post_Mortem_Table">View Post-Mortem Integrity Table</a>
+                    </p>
+                     <h3>Results</h3>
+                    <ul>
+                        <li>Success: That body part survives and may be reused</li>
+                        <li>Failure: That body part is destroyed and must be replaced</li>
+                    </ul>
+
+                    <p>If a body part has previously failed a Soul Claim, it automatically fails this check.</p>
+
+                </section>
+
+                <section id="rule5">
+                    <h1>RULE V — PHYSICAL STAT OVERWRITE</h1>
+                    <p>
+                        When a body part is replaced, all previous physical modifiers
+                        from that part are discarded to make way for the new ones.
+                        Note: Your body is a loadout, not a progression tree. You do not evolve. You reconfigure.
+                    </p>
+                </section>
+
+                <section id="rule6">
+                    <h1>RULE VI — VITALITY RECALCULATION</h1>
+                    <p>
+                        Whenever CON changes due to reconstructed body parts,
+                        HP is recalculated like so.
+                        1) Subtract: (Old CON modifier × Character Level). 2) Add: (New CON modifier × Character Level)
+                    </p>
+                    <h3>Clarifications</h3>
+                    <ul>
+                        <li>Applies only to CON changes from body parts</li>
+                        <li>Does not affect CON from class features, feats, spells, or items</li>
+                        <li>Max HP cannot be reduced below 1 by this rule alone</li>
+                    </ul>
+                </section>
+
+                <section id="rule7">
+                    <h1>RULE VII — SOUL CLAIM</h1>
+                    <p>
+                        When reconstructing with foreign flesh, the soul must assert
+                        ownership to remain anchored. This process is called a Soul Claim.
+                    </p>
+                    <h3>WHEN SOUL CLAIM ROLLS OCCUR</h3>
+                    <p>After reconstruction is complete, make one Soul Claim roll for each replaced body part:</p>
+                    <ul>
+                        <li>Head</li>
+                        <li>Torso</li>
+                        <li>Arms: 1 roll per arm</li>
+                        <li>Legs: 1 roll per leg</li>
+                    </ul>
+
+                    <p>You may make 1 roll per part replaced.</p>
+                    <h3>THE SOUL CLAIM ROLL</h3>
+                    <p>For each replaced part, roll:</p>
+                    <h3>1d20 + CON modifier + proficiency</h3>
+                    <p>The DC is determined by the DM based on how alien or hostile the flesh is.</p>
+                    <h3>SUGGESTED DC GUIDELINES</h3>
+                    <ul>
+                        <li>DC 10 — Familiar Humanoid Flesh (Human, elf, dwarf, orc)</li>
+                        <li>DC 12 — Monstrous Flesh (Troll, ogre, gnoll)</li>
+                        <li>DC 13 — Beast Flesh (Bear, spider, hydra)</li>
+                        <li>DC 14 — Undead Flesh (Zombie, revenant, dracolich)</li>
+                        <li>DC 15 — Construct Components (Golem, clockwork)</li>
+                        <li>DC 16 — Fiendish Flesh (Devil, demon)</li>
+                        <li>DC 17 — Aberrant Flesh (Mind flayer, aboleth)</li>
+                        <li>DC 18 — Celestial Flesh (Angelic beings)</li>
+                        <li>DC 19–20 — Primordial or Divine Matter (Titan, god-shard)</li>
+                    </ul>
+                    <p>The more wrong the flesh is, the harder it is to convince reality that it belongs to you.</p>
+                    <h3>OUTCOMES</h3>
+                    <h3>SUCCESS</h3>
+                    <ul>
+                        <li>The soul claims the flesh</li>
+                        <li>The body part fully integrates</li>
+                        <li>The part anchors the soul</li>
+                        <li>No further Soul Claim rolls are required unless the part is replaced again</li>
+                    </ul>
+                    <h3>FAILURE</h3>
+                    <ul>
+                        <li>The flesh remains foreign</li>
+                        <li>The body part functions mechanically</li>
+                        <li>The part does not anchor the soul</li>
+                        <li>Mark the part as Unclaimed</li>
+                    </ul>
+                    <h3>Unclaimed parts:</h3>
+                    <ul>
+                        <li>Still grant their stat modifiers</li>
+                        <li>Still count as physical matter</li>
+                        <li></li>
+                    </ul>
+                </section>
+
+                <section id="rule8">
+                    <h1>RULE VIII — CONTINUITY OF FLESH</h1>
+                    <p>
+                        Only body parts that fail the Post-Mortem Integrity Check are destroyed.
+                    </p>
+                    <h3>What Carries Over</h3>
+                    <ul>
+                        <li>Surviving body parts</li>
+                        <li>Their stat modifiers</li>
+                        <li>Natural armor</li>
+                        <li>Claimed or unclaimed status</li>
+                    </ul>
+                    <p>Surviving parts do not reroll, recalc stats, or require new Soul Claims.</p>
+                    <p>All Weapon Token augmentations are always lost upon death.</p>
+
+                </section>
+
+                <section id="rule9">
+                    <h1>RULE IX — MOMENTUM OF HATRED</h1>
+                    <p>
+                        Each death grants one Hatred Mark, escalating rage and instability.
+                    </p>
+                    <h3>Benefits</h3>
+                    <ul>
+                        <li>+1 bonus to Initiative per Hatred Mark</li>
+                        <li>During the first round of combat, once per turn, add CON modifier to the damage of one successful attack</li>
+                    </ul>
+                    <h3>Costs</h3>
+                    <ul>
+                        <li>Long rests require +4 hours per Hatred Mark</li>
+                        <li>At the end of each long rest, make a CON save: DC = 10 + Hatred Marks. Failure: gain 1 level of exhaustion.</li>
+                    </ul>
+                    <p>Exhaustion gained this way cannot be removed except by completing a long rest.</p>
+                    <p>Hatred Marks have no upper limit and are removed only by major narrative intervention. (In short, DM's discretion)</p>
+                </section>
+
+                <section id="rule10">
+                    <h1>RULE X — MENTAL DEGRADATION</h1>
+                    <p>
+                        Each death increases Wisdom by +1 at the cost of -1 to either Intelligence
+                        or Charisma.
+                    </p>
+                    <p>If you reduced CHA once already, and would like to reduce it again, you must succeed on a CON saving throw or reduce INT instead. The DC for this starts at 12 and increases by +3 for every successful throw until failure. Once you fail the DC becomes 12 again.</p>
+                    <h3>Terminal Thresholds</h3>
+                    <ul>
+                        <li>INT 3 or lower: The character becomes bestial and increasingly inhuman</li>
+                        <li>INT 0: The soul loses all capacity for cognition, becomes inert, and the character permanently dies</li>
+                    </ul>
+                </section>
+
+            </main>
+
+        </div>
+
+    </body>
+</html>
+
